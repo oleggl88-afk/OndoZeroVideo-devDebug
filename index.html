@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ondo Zero Video Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f4ef;
+      --panel: #fffdf8;
+      --text: #1f1a14;
+      --muted: #6b6256;
+      --line: #ddd2c1;
+      --accent: #9a4d1a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: linear-gradient(180deg, #f2ede4 0%, var(--bg) 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    main {
+      max-width: 860px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    article {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 32px 28px;
+      box-shadow: 0 18px 50px rgba(31, 26, 20, 0.08);
+    }
+    h1, h2 {
+      line-height: 1.2;
+      margin: 0 0 14px;
+    }
+    h1 {
+      font-size: clamp(2rem, 4vw, 3rem);
+      letter-spacing: -0.02em;
+    }
+    h2 {
+      margin-top: 28px;
+      font-size: 1.25rem;
+      color: var(--accent);
+    }
+    p, li {
+      font-size: 1rem;
+    }
+    .meta {
+      color: var(--muted);
+      margin-bottom: 20px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    a {
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <h1>Ondo Zero Video Privacy Policy</h1>
+      <p class="meta">Last updated: 2026-04-28</p>
+
+      <p>Ondo Zero Video is a mobile application for recording, publishing, and verifying device-bound media proofs.</p>
+
+      <h2>What information the app can access</h2>
+      <ul>
+        <li>Camera access, used to capture photos and videos when you choose to record media in the app.</li>
+        <li>Microphone access, used when you choose to record video with audio.</li>
+        <li>Media files you create or select, used to generate verification data, publish proofs, and verify media authenticity.</li>
+        <li>Wallet and blockchain data, including public wallet addresses, transaction signatures, proof hashes, and related on-chain metadata required for Solana-based proof publication and verification.</li>
+        <li>Device-bound identifiers and local settings, including values such as Local Device Name and device-bound identifiers used to bind the app installation to a device and support anti-tamper verification flows.</li>
+        <li>Network and service data sent to the Solana network and configured application services needed to complete registration, proof publication, transfer, and verification flows.</li>
+      </ul>
+
+      <h2>How the app uses this information</h2>
+      <ul>
+        <li>To let you capture photos and videos from within the app.</li>
+        <li>To generate and verify media proofs.</li>
+        <li>To register and validate device-bound identity state.</li>
+        <li>To publish or verify proof-related data on Solana and through configured services.</li>
+        <li>To support wallet continuity, device transfer, and recovery-related workflows.</li>
+      </ul>
+
+      <h2>Proof architecture and disclosure boundaries</h2>
+      <p>For proof-of-ownership, device authorization, and continuity workflows, Ondo Zero Video is designed to use a zero-knowledge proof protocol together with cryptographically strong security mechanisms, including hashing, digital signatures, and device-bound authorization material.</p>
+      <p>The purpose of this design is to allow the app to prove required facts for verification and ownership flows without disclosing private wallet keys, seed phrases, confidential device secrets, or unnecessary personal identity data.</p>
+      <p>The app does not publish the underlying raw video file or raw photo content to the blockchain as part of routine proof creation. Instead, the public record is intended to contain proof-related outputs and limited metadata necessary for verification, auditability, and transaction integrity.</p>
+
+      <h2>When information is transmitted</h2>
+      <p>Media and related proof data are processed when you explicitly use recording, publishing, transfer, or verification features.</p>
+      <p>Depending on the action you choose, the app may transmit one or more of the following:</p>
+      <ul>
+        <li>Proof hashes and metadata.</li>
+        <li>Public wallet addresses and transaction data.</li>
+        <li>Verification payloads.</li>
+        <li>Derived media data when required by the selected workflow.</li>
+      </ul>
+      <p>The app is not intended to transmit your private wallet keys, seed phrase, or confidential device secrets to our servers.</p>
+      <p>The app is also not intended to publish raw video content, raw photo content, or confidential user identity data to the blockchain for ordinary proof registration and verification.</p>
+
+      <h2>Private keys and secrets</h2>
+      <p>Private wallet keys and seed phrases are intended to remain on your device. You are responsible for keeping your recovery phrase backed up securely and offline.</p>
+
+      <h2>Data sharing</h2>
+      <p>Data may be shared with the Solana network when you submit blockchain transactions and with infrastructure or API services configured for the application when needed for app features you choose to use.</p>
+      <p>We do not sell personal data through the app.</p>
+
+      <h2>Data retention</h2>
+      <ul>
+        <li>Media stored on your device remains under your control unless you choose an action that publishes, uploads, or shares it.</li>
+        <li>Blockchain transactions and on-chain proof records are public by design and may remain publicly visible permanently.</li>
+        <li>Server-side retention, if applicable to a specific deployment, depends on the configured service environment and the workflow you use.</li>
+      </ul>
+
+      <h2>Security</h2>
+      <p>Ondo Zero Video is designed to use device-bound security and local wallet storage. However, no method of electronic storage or transmission is completely secure, and you should not rely on the app as your only backup or archival mechanism.</p>
+
+      <h2>Children's privacy</h2>
+      <p>Ondo Zero Video is not directed to children.</p>
+
+      <h2>Changes to this policy</h2>
+      <p>We may update this Privacy Policy from time to time. The latest version should be published at the URL provided in the Google Play listing.</p>
+
+      <h2>Contact</h2>
+      <p>For privacy questions, support requests, or policy updates, contact <a href="mailto:proftoken@proton.me">proftoken@proton.me</a>.</p>
+    </article>
+  </main>
+</body>
+</html>
